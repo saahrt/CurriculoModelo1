@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     font-family: "EB Garamond", serif;
     margin: 0;
@@ -7,21 +11,23 @@ body {
 }
 
 header, footer {
-    background-color: yellow;
+    background-color: #fecb00;
     padding: 20px;
     text-align: center;
+    width: 100%;
     color:black;
+    box-sizing: border-box;
 }
 
 /* <main> deve ocupar duas vezes mais espaço do que o item irmão */
 main {
-    background-color: aliceblue;
+    background-color: #fff;
     padding: 20px;
     flex: 2;
 }
 
 #lateral {
-    background-color: #444;
+    background-color: #212026;
     color: #fff;
     padding: 30px;
     flex: 1;
@@ -69,11 +75,11 @@ progress {
     vertical-align: middle;
 }
 progress::-webkit-progress-bar {
-    background-color: #eee;
+    background-color: #737161;
     border-radius: 8px;
 }
 progress::-webkit-progress-value {
-    background-color: yellowgreen;
+    background-color: #46D84A;
     border-radius: 8px;
 }
 
